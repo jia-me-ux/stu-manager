@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "name": "张三",
+    "age": 19,
+    "email": "zhangsan@exam",
+    "major": "计算机科学与技术"
+  },
+  {
+    "id": 2,
+    "name": "李四",
+    "age": 22,
+    "email": "lisi@example.com",
+    "major": "软件工程"
+  },
+  {
+    "id": 3,
+    "name": "王五",
+    "age": 19,
+    "email": "wangwu@exampl",
+    "major": "数据科学与大数据"
+  },
+  {
+    "id": 4,
+    "name": "赵六",
+    "age": 21,
+    "email": "zhaoliu@example",
+    "major": "人工智能"
+  },
+  {
+    "id": 5,
+    "name": "陈七",
+    "age": 23,
+    "email": "chenqi@example.",
+    "major": "网络工程"
+  },
+  {
+    "id": 6,
+    "name": "刘洋",
+    "age": 20,
+    "email": "liuyang@example",
+    "major": "信息安全"
+  },
+  {
+    "id": 7,
+    "name": "周婷",
+    "age": 22,
+    "email": "zhouting@examp",
+    "major": "物联网工程"
+  },
+  {
+    "id": 8,
+    "name": "吴磊",
+    "age": 21,
+    "email": "wulei@example.co",
+    "major": "电子信息工程"
+  },
+  {
+    "name": "行家",
+    "age": 8,
+    "email": "133@qq.com",
+    "major": "计科",
+    "id": 9
+  },
+  {
+    "name": "力王",
+    "age": 14,
+    "email": "1323@qq.co",
+    "major": "自动化",
+    "id": "10"
+  },
+  {
+    "name": "丽丽",
+    "age": 5,
+    "email": "2434@qq.com",
+    "major": "智能建造",
+    "id": "11"
+  }
+]
