@@ -5,7 +5,7 @@ const db = require('../config/db')
 const router = new Router() 
 
 // GET /api/students
-router.get('/students', async (ctx) => {
+router.get('/', async (ctx) => {
   try {
     console.log('✅ GET 被调用')
     const [rows] = await db.execute('SELECT * FROM students')
@@ -18,7 +18,7 @@ router.get('/students', async (ctx) => {
 })
 
 // POST /api/students
-router.post('/students', async (ctx) => {
+router.post('/', async (ctx) => {
   const { name, age, email, major } = ctx.request.body
 
   if (!name) {
@@ -43,7 +43,7 @@ const id = result.insertId.toString()
 })
 
 // PUT /api/students/:id
-router.put('/students/:id', async (ctx) => {
+router.put('/:id', async (ctx) => {
   const { id } = ctx.params
   const { name, age, email, major } = ctx.request.body
 
@@ -74,7 +74,7 @@ router.put('/students/:id', async (ctx) => {
 })
 
 // DELETE /api/students/:id
-router.delete('/students/:id', async (ctx) => {
+router.delete('/:id', async (ctx) => {
   const { id } = ctx.params
 
   try {

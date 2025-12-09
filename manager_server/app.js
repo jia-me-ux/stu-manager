@@ -16,7 +16,7 @@ const studentRoutes = require('./routes/students')
 console.log('✅ studentRoutes:', studentRoutes) // 👈 添加这行
 
 // ✅ 必须这样挂载
-router.use('/api', studentRoutes.routes())
+router.use('/api/students', studentRoutes.routes())
 
 app.use(router.routes())
 
