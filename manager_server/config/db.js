@@ -1,5 +1,7 @@
 // config/db.js
+require('dotenv').config()
 const mysql = require('mysql2/promise')
+
 
 // 从环境变量读取配置（更安全）
 const dbConfig = {
